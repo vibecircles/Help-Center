@@ -41,12 +41,12 @@ export default function SimpleFooter(): JSX.Element {
             <div className={styles.section}>
               <h4 className={styles.sectionTitle}>Documentation</h4>
               <ul className={styles.linkList}>
-                <li><Link to="/docs/profile">Your Profile</Link></li>
-                <li><Link to="/docs/posts">Your Posts</Link></li>
-                <li><Link to="/docs/messenger">Messenger</Link></li>
-                <li><Link to="/docs/feed">Your Feed</Link></li>
-                <li><Link to="/docs/security">Security</Link></li>
-                <li><Link to="/docs/live-video">Live Video</Link></li>
+                <li><Link to="/docs/category/your-profile">Your Profile</Link></li>
+                <li><Link to="/docs/category/your-posts">Your Posts</Link></li>
+                <li><Link to="/docs/category/messenger">Messenger</Link></li>
+                <li><Link to="/docs/category/your-feed">Your Feed</Link></li>
+                <li><Link to="/docs/category/security">Security</Link></li>
+                <li><Link to="/docs/category/live-video">Live Video</Link></li>
               </ul>
             </div>
             
@@ -69,9 +69,9 @@ export default function SimpleFooter(): JSX.Element {
                 © {new Date().getFullYear()} VibeCircles, Inc. All rights reserved.
               </p>
               <div className={styles.bottomLinks}>
-                <Link to="/privacy">Privacy Policy</Link>
-                <Link to="/terms">Terms of Service</Link>
-                <Link to="/cookies">Cookie Policy</Link>
+                <a href="https://vibecircles.co.za/privacy">Privacy Policy</a>
+                <a href="https://vibecircles.co.za/terms">Terms of Service</a>
+                <a href="https://vibecircles.co.za/cookies">Cookie Policy</a>
               </div>
             </div>
           </div>
