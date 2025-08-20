@@ -1,0 +1,9 @@
+{
+  "label": "Security",
+  "position": 5,
+  "className": "security",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to secure your account, set up two-factor authentication, and protect your privacy."
+  }
+}

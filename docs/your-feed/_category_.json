@@ -1,0 +1,9 @@
+{
+  "label": "Your Feed",
+  "position": 4,
+  "className": "your-feed",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to manage your feed, customize content, and control what you see."
+  }
+}

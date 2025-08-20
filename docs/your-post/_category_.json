@@ -1,0 +1,9 @@
+{
+  "label": "Your Posts",
+  "position": 2,
+  "className": "your-posts",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to create posts, tag friends, and manage your content."
+  }
+}

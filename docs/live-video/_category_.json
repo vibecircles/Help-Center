@@ -1,0 +1,9 @@
+{
+  "label": "Live Video",
+  "position": 6,
+  "className": "live-video",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to start live videos, save recordings, and share your broadcasts."
+  }
+}

@@ -1,0 +1,122 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.topics {
+  padding: 2rem 0 4rem;
+  background: white;
+}
+
+.topicCard {
+  margin-bottom: 2rem;
+}
+
+.topicLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.topicLink:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+.topicContent {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.topicLink:hover .topicContent {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.topicIcon {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.topicTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2196F3;
+  margin: 0 0 1rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.topicDescription {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .topics {
+    padding: 1rem 0 2rem;
+  }
+  
+  .topicContent {
+    padding: 1.5rem 1rem;
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 1.75rem;
+  }
+  
+  .topicTitle {
+    font-size: 1.1rem;
+  }
+  
+  .topicDescription {
+    font-size: 0.85rem;
+  }
+}

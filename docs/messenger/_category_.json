@@ -1,0 +1,9 @@
+{
+  "label": "Messenger",
+  "position": 3,
+  "className": "messenger",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use Messenger features, customize settings, and manage messages."
+  }
+}

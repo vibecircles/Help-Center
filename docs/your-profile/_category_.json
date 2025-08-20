@@ -1,0 +1,9 @@
+{
+  "label": "Your Profile",
+  "position": 1,
+  "className": "your-profile",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to manage your profile settings, timeline, and privacy controls."
+  }
+}
